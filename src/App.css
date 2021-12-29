@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body {
+   height: 100%;
+   background: url(./Fundo.png) #34313f;
+   margin-top: -50px;
+
+}
+
+.page {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .page {
+   max-width: 400px;
+   min-height: 600px ;
+  }
+
+}

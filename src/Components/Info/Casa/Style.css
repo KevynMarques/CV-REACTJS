@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+.Casa h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+  padding: 30px;
+  color: #28a745;
+}
+
+.Casa-Center {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.Casa-Left {
+  width: 50%;
+  height: 100%;
+}
+.Casa-Left img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.Name {
+  display: flex;
+   height: 33%;
+   margin-left: 20px;
+}
+
+.Name img {
+  margin-left: 10px;
+}
+
+
+.Name h2 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.Name p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+
+
+.email {
+
+  display: flex;
+  height: 33%;
+  margin-left: 20px;
+
+}
+
+.email img {
+  margin-left: 10px;
+}
+
+
+.email h2 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.email p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+
+.end {
+  display: flex;
+  height: 33%;
+  margin-left: 20px;
+}
+
+
+.end img {
+  margin-left: 10px;
+}
+
+
+.end h2 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.end p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+
+.Casa-Right {
+  width: 50%;
+  height: 100%;
+}
+.Casa-Right img {
+  width: 50px;
+  height: 50px;
+}
+
+.idade {
+  display: flex;
+   height: 33%;
+   margin-left: 20px;
+}
+
+.idade img {
+  margin-left: 10px;
+}
+
+
+.idade h2 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.idade p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+
+
+.celular {
+  display: flex;
+   height: 33%;
+   margin-left: 20px;
+}
+
+.celular img {
+  margin-left: 10px;
+}
+
+
+.celular h2 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.celular p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+
+
+/*     Casa-Dois-Perfil       */ 
+
+.Casa-Dois {
+ width: 50%;
+}
+
+.Casa-Dois h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+  padding: 30px;
+  color: #28a745;
+}
+
+.description p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+  margin-left: 25px;
+  margin-top: -5px;
+
+}
+
+.Casa-Dois img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 450px;
+  margin-top: -250px;
+}
+#local:hover {
+  cursor: pointer;
+  color:rgb(103, 106, 196);
+}
+
+@media screen and (max-width: 700px) {
+
+  .Casa-Center {
+    flex-direction: column;
+  }
+
+ .Name h2 {
+   font-size: 15px;
+ }
+
+
+  .Casa-Left div {
+
+    margin-top: 20px;
+  
+  }
+  .Casa-Right {
+    margin-top: 20px;
+  }
+
+  .Casa-Right div {
+
+    margin-top: 50px;
+  
+  }
+
+  .description {
+    margin-top: 200px;
+    width: 340px;
+  }
+  .description p {
+    color: rgb(184, 181, 181);
+  }
+
+  .Casa-Dois img {
+    display: none;
+  }
+}

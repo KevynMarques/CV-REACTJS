@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+
+.port h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
+  padding: 25px;
+  color: #28a745;
+  height: 50px;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.port-github {
+  text-align: center;
+}
+
+.port-github p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+  text-align: center;
+  
+}
+
+.port-netlify {
+ display: flex;
+}
+
+.port-netlify img  {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 95px;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.port-netlify img:hover {
+  transform: scale(1.1);
+}
+
+
+.Github {
+  display: flex;
+ }
+ 
+ .Github img  {
+   width: 220px;
+   height: 220px;
+   cursor: pointer;
+   transform: scale(0.8);
+   margin-left:  500px;
+   margin-top: 50px;
+ }
+ 
+ .Github img:hover {
+   transform: scale(1);
+   
+ }
+
+.textos {
+font-size: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(191, 191, 191);
+opacity: 0.7;
+}
+
+.textos.Um {
+position: absolute;
+margin-left: 530px;
+margin-top: 250px;
+}
+
+.textos.Dois {
+ position: absolute;
+ margin-top: 240px;
+ margin-left: 140px;
+}
+
+@media screen and (max-width: 700px) {
+ 
+  .Github {
+    position: absolute;
+    margin-left: -430px;
+    margin-top: 290px;
+  }
+ 
+  .port-netlify {
+    margin-left:-30px ;
+    
+  }
+}
